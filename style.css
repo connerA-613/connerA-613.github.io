@@ -12,7 +12,31 @@ nav{
 #projects-title {
     padding: 20px;
     font-size: 400%;
-    color: white;
+    color: black;
+}
+
+#about-me {
+    margin: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-size: 200%;
+}
+
+#intro {
+    padding: 60px;
+}
+
+#self-portrait {
+    max-width: 15%;
+    border: 5px solid #555;
+}
+
+#language {
+    max-width: 15%;
+    padding: 20px;
+    margin: 50px;
+    width: 25rem;
+    background: transparent;
 }
 
 body {
