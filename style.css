@@ -16,9 +16,8 @@ nav{
 }
 
 #about-me {
-    margin: 50px;
-    margin-left: 500px;
-    margin-right: 500px;
+    padding-top: 40px;
+    width: 56rem;
     font-size: 200%;
 }
 
