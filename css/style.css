@@ -1,0 +1,205 @@
+@import url(./fonts.css);
+@import url(./_variables.css);
+@import url(./_global.css);
+
+/* header */
+#logo {
+    padding: 0 2rem 0 5rem;
+}
+
+/*.active a {
+    background: grey;
+    color: white;
+}*/
+
+.nav-item {
+    padding: 0 1rem 0 2.5rem;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 5px solid;
+}
+
+
+
+.header_area {
+    font-family: var(--roboto);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: black;
+}
+
+#linkedin {
+    width: 1.5rem;
+}
+
+.navbar-nav a:hover{
+    background: grey;
+    color:white;
+}
+
+/* Banner */
+
+#self-portrait {
+    width: 15rem;
+    border: 5px solid grey;
+}
+
+.button.primary-button {
+    background: black;
+    color: white;
+    background-clip: padding-box;
+}
+
+.button.primary-button:hover {
+    background: white;
+    background-clip: padding-box;
+    color: black;
+}
+
+.button {
+    padding: .8rem 2.2rem;
+    font: normal 500 16px/20px var(--roboto);
+    position: relative;
+}
+
+.button.primary-button::after {
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px; right: -2px;
+    background: white;
+}
+
+#site-title h3 {
+    font-size: 30px;
+    color: black;
+    padding-top: 35%;
+    font-weight: bold;
+}
+
+#site-title h3::after {
+    content:"";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+#site-title h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+#site-title h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#self-portrait {
+    padding: 7rem;
+    width: 30rem;
+    border: 5px solid; padding: 0px; margin:20px;
+}
+
+
+/* about section*/
+
+#about-me {
+    width: 30rem;
+}
+
+.about-area {
+    padding: 8rem 5rem;
+}
+
+.about-title h2 > span {
+    display: block;
+    font-weight: bold;
+    font-size: 49px/60px;
+    letter-spacing: 21px;
+}
+
+.about-title.paragraph > p {
+    padding: .4rem 0;
+
+}
+
+/* languages section */
+
+.languages {
+    padding: 8rem 10rem;
+}
+
+.language {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.language-title h2 {
+    display: block;
+    font-weight: bold;
+    font-size: 49px/60px;
+    letter-spacing: 21px;
+}
+
+/* skills section */
+
+
+.skills {
+    padding: 8rem 10rem;
+}
+
+.skills-title h2 {
+    display: block;
+    font-weight: bold;
+    font-size: 49px/60px;
+    letter-spacing: 21px;
+}
+
+.skill {
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+.skills-list {
+    padding-left: 15rem 
+}
+
+
+
+.card {
+    border: 5px solid;
+    width: 30rem;
+    
+}
+
+.projects {
+    padding: 8rem 10rem;
+}
+
+.projects-title {
+    padding-bottom: 2.5rem;
+}
+
+.footer {
+    padding: 8rem 10rem;
+    background-color: black;
+    color: white;
+}
+
+.contact {
+    padding-top: 5rem;
+    padding-left: 10rem;
+}
+
+#footer-link {
+    color: white;
+}
+
+
+
