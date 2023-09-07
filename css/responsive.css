@@ -1,8 +1,12 @@
 @media only screen and (max-width: 340px) {
     .navbar,
-    .navbar-brand,
+    .navbar-brand
      {
-        padding: 2%;
+        padding: 0%;
         margin: 0%;
+    }
+
+    .site-title h1 {
+        font-size: 41px;
     }
 }
