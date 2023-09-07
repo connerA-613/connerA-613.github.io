@@ -70,6 +70,10 @@
     .contact {
         padding: 5%;
     }
+
+    .project {
+        padding-bottom: 2rem;
+    }
 }
 
 /* tablets */
