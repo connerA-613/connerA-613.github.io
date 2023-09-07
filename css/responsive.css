@@ -1,3 +1,5 @@
+
+/* phones */
 @media only screen and (max-width: 420px) {
     .navbar
      {
@@ -18,26 +20,36 @@
         padding: 2%;
     }
 
-    #languages {
-        padding: 5%;
+    .languages {
+        padding: 2%;
+        padding-right: 0;
     }
 
+
+    
     #languages-pic {
-        width: 95%;
-        padding-bottom: 2rem;
+        width: 50%;
+        margin-left: 7rem;
+        margin-top: 10rem;
     }
 
     #skills {
-        padding: 0.5%;
+        padding: 2%;
+    }
+
+    .skills {
+        padding-right: 2rem;
     }
 
     #skills-pic {
-        width: 95%;
+        width: 75%;
+        padding-top: 10rem;
     }
 
     .skills-list {
-        padding: 5%;
+        padding-left: 0;
     }
+
 
     .projects {
         padding: 5%;
@@ -58,7 +70,35 @@
     .contact {
         padding: 5%;
     }
-
-
-
 }
+
+/* tablets */
+
+/*@media only screen and (max-width: 1000px) {
+    .navbar {
+        width: 99%;
+    }
+
+    .languages {
+        padding: 2%;
+    }
+
+    #languages-pic {
+        width: 150%;
+        padding-top: 2rem;
+        padding-right: 2rem;
+    }
+
+    .skills {
+        padding: 2%;
+    }
+
+    #skills-pic {
+        width: 150%;
+        padding-top: 2rem;
+        padding-right: 2rem;
+    }
+
+    .footer {
+        width: 120%;
+    }*/
