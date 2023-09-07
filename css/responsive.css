@@ -1,12 +1,64 @@
-@media only screen and (max-width: 340px) {
-    .navbar,
-    .navbar-brand
+@media only screen and (max-width: 420px) {
+    .navbar
      {
-        padding: 0%;
+        padding: 2%;
         margin: 0%;
+        width: 99%;
+    }
+
+    #site-title h3 {
+        padding-top: 10%;
     }
 
     .site-title h1 {
         font-size: 41px;
     }
+
+    #about {
+        padding: 2%;
+    }
+
+    #languages {
+        padding: 5%;
+    }
+
+    #languages-pic {
+        width: 95%;
+        padding-bottom: 2rem;
+    }
+
+    #skills {
+        padding: 0.5%;
+    }
+
+    #skills-pic {
+        width: 95%;
+    }
+
+    .skills-list {
+        padding: 5%;
+    }
+
+    .projects {
+        padding: 5%;
+    }
+
+    .card {
+        width: 20rem;
+    }
+
+    #self-portrait {
+        width: 90%;
+    }
+
+    #footer {
+        padding: 2%;
+    }
+
+    .contact {
+        padding: 5%;
+    }
+
+
+
 }
