@@ -23,6 +23,7 @@
     .languages {
         padding: 2%;
         padding-right: 0;
+        padding-top: 2rem;
     }
 
 
@@ -39,6 +40,7 @@
 
     .skills {
         padding-right: 2rem;
+        padding-top: 2rem;
     }
 
     #skills-pic {
@@ -53,6 +55,7 @@
 
     .projects {
         padding: 5%;
+        padding-top: 2rem;
     }
 
     .card {
