@@ -29,20 +29,20 @@
     font-weight: 500;
     padding: 1.7rem;
     color: black;
-    animation: fadeInAnimation ease 1s;
+    animation: fadeInAnimation ease 0.5s;
     animation-iteration-count: 1;
     animation-fill-mode: initial; 
 }
 
 #banner {
-    animation: fadeInFromTopAnimation ease 1s;
+    animation: fadeInFromTopAnimation ease 0.5s;
     animation-iteration-count: 1;
     animation-fill-mode: initial; 
 }
 
 @keyframes fadeInFromTopAnimation {
     0% {
-        transform: translateY(300px);
+        transform: translateY(100px);
         opacity: 0;
     }
     100% {
@@ -62,8 +62,8 @@
 
 .animate {
     opacity: 0;
-    transform: translateY(300px);
-    transition: all 1s;
+    transform: translateY(100px);
+    transition: all 0.5s;
 }
 
 .scrollAnimation {
