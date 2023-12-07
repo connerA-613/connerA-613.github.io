@@ -238,6 +238,11 @@
     margin-right: auto;
 }
 
+#quiz-pic {
+    width: 31.1rem;
+    margin-left: -3px;
+}
+
 .footer {
     padding: 8rem 10rem;
     background-color: black;

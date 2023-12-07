@@ -105,15 +105,12 @@
     }
 }
 
-/*@media only screen and (max-width: 1700px) {
-    .project {
-        max-width: 50%;
-    }
-}
 
-@media only screen and (max-width: 1300px) {
-    .project {
-        max-width: 10%;
+
+/*@media only screen and (max-width: 1200px) and (min-width: 900px) {
+    #footer {
+        padding: 2%;
+        width: 126%;
     }
 }*/
 
