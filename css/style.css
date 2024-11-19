@@ -6,7 +6,81 @@
 #logo {
     padding: 0 2rem 0 5rem;
 }
+/* Responsive Design */
+@media (max-width: 1200px) {
+    #logo {
+        padding: 0 1rem 0 3rem;
+    }
+    .nav-item {
+        padding: 0 0.5rem 0 1.5rem;
+    }
+    .header_area {
+        padding: 1.2rem;
+    }
+    .about-area, .languages, .skills, .projects, .footer {
+        padding: 6rem 5rem;
+    }
+}
 
+@media (max-width: 992px) {
+    #logo {
+        padding: 0 0.5rem 0 2rem;
+    }
+    .nav-item {
+        padding: 0 0.5rem 0 1rem;
+    }
+    .header_area {
+        padding: 1rem;
+    }
+    .about-area, .languages, .skills, .projects, .footer {
+        padding: 5rem 3rem;
+    }
+    #self-portrait {
+        width: 20rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #logo {
+        padding: 0 0.5rem;
+    }
+    .nav-item {
+        padding: 0 0.5rem;
+    }
+    .header_area {
+        padding: 0.8rem;
+    }
+    .about-area, .languages, .skills, .projects, .footer {
+        padding: 4rem 2rem;
+    }
+    #self-portrait {
+        width: 15rem;
+    }
+    .skills-list {
+        padding-left: 5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    #logo {
+        padding: 0 0.5rem;
+    }
+    .nav-item {
+        padding: 0 0.5rem;
+    }
+    .header_area {
+        padding: 0.5rem;
+    }
+    .about-area, .languages, .skills, .projects, .footer {
+        padding: 3rem 1rem;
+    }
+    #self-portrait {
+        width: 10rem;
+    }
+    .skills-list {
+        padding-left: 2rem;
+    }
+}
 /*.active a {
     background: grey;
     color: white;
