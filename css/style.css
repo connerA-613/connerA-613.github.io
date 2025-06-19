@@ -61,7 +61,7 @@
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 600px) {
     #logo {
         padding: 0 0.5rem;
     }
@@ -299,7 +299,7 @@
 }
 
 .projects {
-    padding: 8rem 10rem;
+    padding: 8rem  10rem;
 }
 
 .projects-title {
@@ -310,6 +310,8 @@
     margin-bottom: 2rem;
     margin-left: auto;
     margin-right: auto;
+    min-width: 20rem;
+    max-width: 50rem;
 }
 
 #quiz-pic {
